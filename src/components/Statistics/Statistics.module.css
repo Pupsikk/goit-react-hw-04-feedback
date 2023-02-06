@@ -1,0 +1,18 @@
+.statisticsList {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  width: 480px;
+  padding: 0;
+}
+
+.statisticsItem {
+  display: flex;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.statisticsItem:last-child {
+  margin: 0;
+  color: green;
+}
